@@ -1,0 +1,15 @@
+.square{
+	background-color: lightblue;
+	border: 2px solid black;
+	width: 150px;
+	height: 150px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 3em;
+
+}
+
+#boardwrap{
+	display:flex;
+	justify-content: center;
+}
