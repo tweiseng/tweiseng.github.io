@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Interactive Features</title>
+	<link href= "lightbox.css" rel = "stylesheet"/>
+</head>
+<body>
+	<h1>Interactive Image Gallery</h1>
+
+<!-- Gallery here -->
+	<ul class="gallery">
+		<li class="gallery-item"><img class="lightbox-img" src = "images/guesthouse_mountains.jpg">
+		<p class="captions">Guesthouse at the base of Jungfraujoch</p>
+		</li>
+		<li class="gallery-item"><img class="lightbox-img" src = "images/mountainView.jpg">
+		<p class="captions">View of the mountains from the town</p>
+		</li>
+		<li class="gallery-item"><img class="lightbox-img" src = "images/townOfJungfrau.jpg">
+		<p class="captions">Somewhere in town</p>
+		</li>
+	</ul>	
+
+<!-- Lightbox here -->
+	<div class = "lightbox hidden">
+		<div class ="lightbox-content">
+			<div class ="lightbox-controls">
+				<a href="" class="lightbox-close">Close me up!!</a>
+				<a href="" class="lightbox-prev">Prev</a>
+				<a href="" class="lightbox-next">Next</a>
+			</div>
+			<div class = "lightbox-image">	
+				<img class="lightbox-img" src = "images/townOfJungfrau.jpg">
+				<p class="captions">Somewhere in town</p>
+			</div>
+		</div>
+	</div>
+
+	<script src="scripts.js"></script>
+</body>
+</html>
